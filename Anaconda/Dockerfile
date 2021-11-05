@@ -5,7 +5,6 @@ RUN mkdir /code && \
     conda update conda && \
     conda install -c conda-forge pystan && \
     conda install -c conda-forge fbprophet && \
-    pip install pysqlite3 && \
     pip install optuna 
 
 WORKDIR /code
