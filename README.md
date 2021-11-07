@@ -23,7 +23,7 @@ docker ps -a
 
 ___http\://localhost:8080___
 
-上記をブラウザに打ち込み、ローカル仮想環境のJupyterLabを開きます。
+上記をブラウザに打ち込み、ローカル仮想環境のJupyterLabを開き、「Lab.ipynb」をを使用します。
 以下のパラメータを各自で設定し、回してください。
 
 ```shell
