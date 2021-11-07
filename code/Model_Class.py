@@ -22,10 +22,9 @@ class Model_Nomal_Prophet(object):
         ylabel = 'Phishing_Count'
         return self.model.plot(fcst, ax=ax, uncertainty=uncertainty, plot_cap=plot_cap, xlabel=xlabel, ylabel=ylabel, figsize=figsize)
     
-    #予測期間における、土日を抜いたフレーム作成
+    #予測期間における、フレーム作成
     def Nomal_FutureFrame(self):
         future = self.model.make_future_dataframe(periods=self.__days, freq = 'm')
-        future = future[future["ds"].dt.weekday < 5]
         
         return future
 
@@ -149,7 +148,6 @@ class hyper_search_model(object):
     
   def Hyper_FutureFrame(self):
     future = self.model.make_future_dataframe(periods=self.__days, freq = 'm')
-    future = future[future["ds"].dt.weekday < 5]
 
     return future
 
