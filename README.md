@@ -3,6 +3,7 @@
 日本フィッシング対策協議会（Council of Anti-Phishing Japan）が出しているフィッシング報告件数のデータをもとに、
 今後のフィッシング傾向を予測するためデータ分析のモデルを作成した。
 
+![output](https://user-images.githubusercontent.com/89838264/140637122-d951c8dd-44f0-4352-8bb4-0f7ce1109a01.png)
 # Installation
 
 各環境でのDockerが使えるディレクトリを用意し、以下を実行
