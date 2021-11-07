@@ -21,7 +21,7 @@ docker ps -a
 # Usage
 基本的にUserのインターフェースはJupterLabを用います。
 
-___http://localhost:8080___
+___\http://localhost:8080___
 
 上記をブラウザに打ち込み、ローカル仮想環境のJupyterLabを開きます。
 以下のパラメータを各自で設定し、回してください。
