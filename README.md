@@ -12,7 +12,7 @@
 #インストール後、Dockerを起動
 git clone https://github.com/schecthellraiser606/Phishing_count_Predict
 
-docker-compose up
+docker-compose up -d
 
 #コンテナがUPしていることを確認
 #UPしていない場合はdocker start等で起動していってください
